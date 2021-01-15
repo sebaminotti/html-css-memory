@@ -1,52 +1,154 @@
-
 *{
-margin: 0;
-padding: 0;
+padding:0;
+margin:0;
 box-sizing: border-box;
 }
-/* reset pagina fine */
-body{
-background-color: #E1FFFF;
-font-family: 'Fredoka One', cursive;
+/* FINE RESET PAGINA */
+body{font-family: 'Black Ops One', cursive;
+background-color: lightblue;
 }
 
-.container{
-
-width:100%;
-height: 100%;
+header{width:100%;
+height:70px;
+border: 1px solid red;
+background-color: orange;
 }
-
-header{
-  width:100%;
-height:60PX;
-border: 1PX SOLID BLUE;
-margin-bottom: 50PX;}
-header H1{color:ORANGE;
-font-size: 40PX;text-align: center;
-line-height: 50PX;}
+header > h1, h3{color:blue; text-align: center;}
 
 main{
+margin-top: 100px;
+width:900px;
+height: 1100px;
+margin: 0 auto;
+margin-top: 40px;
+}
+/* fine impostazioni main */
+
+.row{width: 100%;
+height:360px;
+
+}
+/* fine row */
+.card {
+
+margin-top: 10px;
 position: relative;
-width: 800PX;
-height: 900PX;
-border: 1PX SOLID RED;
-margin: 0 AUTO;
-}
-.LINE{
-width:100%;
-height: 300PX;
-}
-.CARD{
 border-radius: 5px;
 display: inline-block;
-width:CALC(100% / 4 - 4px);
-height:290PX;
-border: 1PX SOLID ORANGE;
-background-image: url(../img/pattern.png);
+width:calc(100% / 4 - 5px);
+height:350px;
+border:1px solid limegreen;
+background-image: url(../img/sfondo.png);
 background-size: contain;
 }
+.testo{
+
+display:none;
+
+}
 .prima:hover{
-background-image: url(../img/noun_air_balloon_3134741.png);
-background-size: cover;
-background-position:center;
+background-image: url(../img/tram.png);
+background-repeat: no-repeat;
+background-color: red;
+
+}
+.prima:hover .testo{
+display: inline;
+}
+.testo h2{
+  position: absolute;
+margin-left:25%;
+margin-top: 300px;
+color:purple;
+font-size: 25px;
+}
+.seconda:hover{
+  background-image: url(../img/nave.png);
+  background-repeat: no-repeat;
+  background-color:yellow;
+}
+.seconda:hover .testo{
+display: inline;
+}
+.terza:hover{
+  background-color: dodgerblue;
+  background-image: url(../img/mongolfiera.png);
+  background-repeat: no-repeat;
+}
+.terza:hover .testo{
+display: inline;
+}
+.quarta:hover{
+  background-color: lightgreen;
+  background-image: url(../img/trattore.png);
+  background-repeat: no-repeat;
+}
+.quarta:hover .testo{
+display: inline;
+}
+
+.quinta:hover{
+  background-color: lightgreen;
+  background-image: url(../img/trattore.png);
+  background-repeat: no-repeat;
+}
+.quinta:hover .testo{
+display: inline;
+}
+
+.sesta:hover{
+  background-color: grey;
+  background-image: url(../img/sottomarino.png);
+  background-repeat: no-repeat;
+}
+.sesta:hover .testo{
+display: inline;
+}
+.sette{
+background-image: url(../img/mongolfiera.png);
+background-repeat: no-repeat;
+background-color: dodgerblue;
+}
+.sette:hover .testo{
+display:block;
+}
+
+
+.ottava:hover{
+  background-color: grey;
+  background-image: url(../img/sottomarino.png);
+  background-repeat: no-repeat;
+}
+.ottava:hover .testo{
+display: inline;
+}
+.nona:hover{
+  background-color: red;
+  background-image: url(../img/tram.png);
+  background-repeat: no-repeat;
+}
+.nona:hover .testo{
+display: inline;
+}
+
+.decima:hover{
+  background-color: yellow;
+  background-image: url(../img/nave.png);
+  background-repeat: no-repeat;
+}
+.decima:hover .testo{
+display: inline;
+}
+
+.undicesima:hover{
+  background-color: lightgreen;
+  background-image: url(../img/trattore.png);
+  background-repeat: no-repeat;
+}
+.undicesima:hover .testo{
+display: inline;
+}
+footer p{
+text-align:center;
+
 }
