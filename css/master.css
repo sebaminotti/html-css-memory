@@ -5,38 +5,38 @@ box-sizing: border-box;
 }
 /* FINE RESET PAGINA */
 body{font-family: 'Black Ops One', cursive;
-background-color: lightblue;
+background-image: url(../img/brain.jpg);
 }
 
 header{width:100%;
-height:70px;
-border: 1px solid red;
-background-color: orange;
-}
-header > h1, h3{color:blue; text-align: center;}
+height:40px;
+background-color:rgba(0,0,0,0.5)}
+header > h1{color:lightblue; text-align: center;}
 
 main{
-margin-top: 100px;
-width:900px;
-height: 1100px;
+
+margin-top: 10px;
+width:550px;
+height: 500px;
 margin: 0 auto;
-margin-top: 40px;
+
 }
 /* fine impostazioni main */
 
 .row{width: 100%;
-height:360px;
+height:170px;
 
 }
 /* fine row */
 .card {
-
+text-align: center;
+margin-left: 25px;
 margin-top: 10px;
 position: relative;
 border-radius: 5px;
 display: inline-block;
-width:calc(100% / 4 - 5px);
-height:350px;
+width:100px;
+height:150px;
 border:1px solid limegreen;
 background-image: url(../img/sfondo.png);
 background-size: contain;
@@ -56,11 +56,12 @@ background-color: red;
 display: inline;
 }
 .testo h2{
+margin-left: 20%;
   position: absolute;
-margin-left:25%;
-margin-top: 300px;
+
+margin-top: 120px;
 color:purple;
-font-size: 25px;
+font-size: 14px;
 }
 .seconda:hover{
   background-image: url(../img/nave.png);
@@ -148,7 +149,13 @@ display: inline;
 .undicesima:hover .testo{
 display: inline;
 }
+
+
+footer{margin-top:30px;}
 footer p{
-text-align:center;
+color: LIME;
+font-size: 20PX;
+text-align: center;
+background-color:RGBA(0,0,0,0.5);
 
 }
